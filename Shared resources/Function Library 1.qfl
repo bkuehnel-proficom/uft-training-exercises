@@ -1,4 +1,6 @@
-﻿Dim bDebug
+﻿Option Explicit
+
+Dim bDebug
 bDebug = True
 
 Public Sub WriteToReport(strMessage)
@@ -6,7 +8,7 @@ Public Sub WriteToReport(strMessage)
 End Sub
 
 Public Sub DebugMessage(strMessage)
-	If bDebug = True Then
+	If bDebag = True Then
 		Reporter.ReportEvent micWarning, "Custom message", strMessage		
 	End If
 End Sub

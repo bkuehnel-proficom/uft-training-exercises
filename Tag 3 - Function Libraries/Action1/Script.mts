@@ -10,12 +10,15 @@ Browser("Advantage Shopping").Page("Advantage Shopping").Check CheckPoint("Advan
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Suchen-Button").Click @@ script infofile_;_ZIP::ssf7.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebEdit("Search AdvantageOnlineShopping").Set "headphones" @@ script infofile_;_ZIP::ssf8.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("View All").Click @@ script infofile_;_ZIP::ssf18.xml_;_
+
 Wait 5
+
 If Browser("Advantage Shopping").Page("Advantage Shopping").Link("View All").Exist(5) Then
 	'strMessage = GetCurrentDate() & " - Pop-Up wurde nicht geschlossen!"
 	'DebugMessage strMessage
 	DebugMessage GetCurrentDate() & " " & GetCurrentTime() & " - Pop-Up wurde nicht geschlossen!"
 End If
+
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("searchResultLabel").Check CheckPoint("searchResultLabel") @@ script infofile_;_ZIP::ssf19.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("About AOS Versions Management").Click @@ script infofile_;_ZIP::ssf20.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Image("closeDark").Click @@ script infofile_;_ZIP::ssf21.xml_;_
@@ -24,6 +27,30 @@ Browser("Advantage Shopping").Page("Advantage Shopping").Image("Image of Logitec
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Preis in Artikeldetails").Check CheckPoint("$39.99 SOLD OUT") @@ script infofile_;_ZIP::ssf10.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebButton("save_to_cart").Click @@ script infofile_;_ZIP::ssf11.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").Link("ShoppingCart").Click @@ script infofile_;_ZIP::ssf12.xml_;_
+
+Browser("Advantage Shopping").Page("Advantage Shopping").Sync
+'If Browser("Advantage Shopping").Page("Advantage Shopping").GetRoProperty("title") != "Shopping Cart" Then
+'	Reporter.ReportEvent micFail, "shopping cart", "Seite wurde nicht geladen"
+'	ExitTestIteration
+'End  If
+
+Function GetValueFromCSV()
+	dim fs,objTextFile
+	set fs=Server.CreateObject("Scripting.FileSystemObject")
+	dim arrStr
+	set objTextFile = fs.OpenTextFile("Somefile.csv")
+	
+	Do while NOT objTextFile.AtEndOfStream
+	  arrStr = split(objTextFile.ReadLine,",")
+	'  arrStr is now an array that has each of your fields
+	' process them, whatever.....
+	Loop
+	
+	objTextFile.Close
+	set objTextFile = Nothing
+	set fs = Nothing
+End Function
+
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Anzahl Elemente im Warenkorb").Check CheckPoint("(1)") @@ script infofile_;_ZIP::ssf13.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("Gesamtpreis des Warenkorbs").Check CheckPoint("$39.99") @@ script infofile_;_ZIP::ssf14.xml_;_
 Browser("Advantage Shopping").Page("Advantage Shopping").WebElement("REMOVE").Click @@ script infofile_;_ZIP::ssf15.xml_;_
