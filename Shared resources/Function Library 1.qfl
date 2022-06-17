@@ -1,0 +1,18 @@
+﻿Dim bDebug
+bDebug = True
+
+Public Sub WriteToReport(strMessage)
+	Reporter.ReportEvent micDone, "Custom message", strMessage
+End Sub
+
+Public Sub DebugMessage(strMessage)
+	If bDebug = True Then
+		Reporter.ReportEvent micWarning, "Custom message", strMessage		
+	End If
+End Sub
+
+Function GetCurrentDate()
+	'some other code...
+	MyDate = CDate(Now)
+	GetCurrentDate = Year(MyDate) & "-" & Month(MyDate) & "-" & Day(MyDate)
+End Function

@@ -1,0 +1,1266 @@
+<?xml version="1.0"?>
+<Results version="1.0">
+<ReportNode type="testrun">
+<ReportNode type="Iteration">
+<ReportNode type="Action">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Initialzustand leeres Suchfeld"</Name>
+    <Description> </Description>
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search AdvantageOnlineShopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[disabled]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[0]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[0]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[INPUT]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[INPUT]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[placeholder]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Search AdvantageOnlineShopping.com]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Search AdvantageOnlineShopping.com]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[readonly]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[0]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[0]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[type]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[text]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[text]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[value]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>7cf377228da9476b91301cdd5b671ec7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Search AdvantageOnlineShopping.com"</Name>
+    <Description> </Description>
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search AdvantageOnlineShopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Output</Type>
+        <Properties>
+          <Property>
+            <StdOutputPropertyName><![CDATA[placeholder]]></StdOutputPropertyName>
+            <StdOutputCapturedValue><![CDATA[Search AdvantageOnlineShopping.com]]></StdOutputCapturedValue>
+            <StdOutputType><![CDATA[DataTable]]></StdOutputType>
+            <StdOutputName><![CDATA[Search AdvantageOnlineShopping_placeholder_out]]></StdOutputName>
+          </Property>
+        </Properties>
+        <ShortDescription>Output passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>7cf377228da9476b91301cdd5b671ec7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Search AdvantageOnlineShopping</Name>
+    <Description>WebEdit</Description>
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search AdvantageOnlineShopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebEdit]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7cf377228da9476b91301cdd5b671ec7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Advantage Shopping.Sync</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <Operation>Sync</Operation>
+      </TestObject>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Advantage Shopping_2"</Name>
+    <Description>Text Checkpoint: captured "", expected "TABLETS
+
+Shop Now &amp;gt;" Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2022-06-17 11:17:11</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Text Checkpoint: captured "", expected "TABLETS
+
+Shop Now &gt;" Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+      </TestObject>
+      <Checkpoint>
+        <Type>Text Checkpoint</Type>
+        <Captured>""</Captured>
+        <Expected>"TABLETS
+
+Shop Now &amp;gt;"</Expected>
+        <Regex>False</Regex>
+        <MatchCase>False</MatchCase>
+        <ExactMatch>False</ExactMatch>
+        <IgnoreSpaces>True</IgnoreSpaces>
+      </Checkpoint>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\f811816b-9add-4252-9c80-d9133ede930f.jpeg" highlight="8,93,1920,955" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Advantage Shopping_3"</Name>
+    <Description>Text Checkpoint: captured  " TABLETS Shop Now "  between  SPEAKERS Shop Now  and  LAPTOPS Shop  Match case: OFF Exact match: OFF Ignore spaces: ON</Description>
+    <StartTime>2022-06-17 11:17:12</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Text Checkpoint: captured  " TABLETS Shop Now "  between  SPEAKERS Shop Now  and  LAPTOPS Shop  Match case: OFF Exact match: OFF Ignore spaces: ON]]></OperationData>
+      </TestObject>
+      <Checkpoint>
+        <Type>Text Checkpoint</Type>
+        <Captured>" TABLETS Shop Now "</Captured>
+        <Expected>" TABLETS Shop Now "</Expected>
+        <TextBefore>SPEAKERS Shop Now</TextBefore>
+        <TextAfter>LAPTOPS Shop</TextAfter>
+        <Regex>False</Regex>
+        <MatchCase>False</MatchCase>
+        <ExactMatch>False</ExactMatch>
+        <IgnoreSpaces>True</IgnoreSpaces>
+      </Checkpoint>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"About AOS Versions Management_2"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-06-17 11:17:33</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <BasicMatch>1</BasicMatch>
+        </SIDBasicProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"About AOS Versions Management_2"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO&lt;br&gt;html tag=HEADER&lt;br&gt;html id=&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=HEADER&lt;br&gt;</Description>
+    <StartTime>2022-06-17 11:17:33</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <BasicMatch>1</BasicMatch>
+        </SIDBasicProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO<br>html tag=HEADER<br>html id=<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=HEADER<br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a941e7a461c24d9e8ccec8a476ff34f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: '' View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO"</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:34</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management_2]]></Name>
+          </Object>
+        </Path>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Bitmap CheckPoint</Type>
+        <bmpChkPointFileExpected>Resources\CheckPoints\d67ff731-217b-4a91-bb95-feea4c88b448\expected.png</bmpChkPointFileExpected>
+        <bmpChkPointFileActual>Resources\CheckPoints\d67ff731-217b-4a91-bb95-feea4c88b448\actual.png</bmpChkPointFileActual>
+        <bmpChkPointFileDifferent>Resources\CheckPoints\d67ff731-217b-4a91-bb95-feea4c88b448\different.png</bmpChkPointFileDifferent>
+      </Checkpoint>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>About AOS Versions Management_2</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-06-17 11:17:34</StartTime>
+    <Duration>0</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management_2]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 2 ITEMS (0) Your shopping cart is empty HP H2310 IN-EAR HEADSET QTY: 1 Color: BLACK $13.99 HP H2310 IN-EAR HEADSET QTY: 1 Color: GRAY $13.99 TOTAL (2 Items) $27.98 CHECKOUT ($27.98) My account My orders Sign out CATEGORIES TOP RESULTS FOR: "" View All CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Checkpoint">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"Alt property check"</Name>
+    <Description>One or more objects in this page are missing a required &amp;lt;ALT&amp;gt; tag.</Description>
+    <StartTime>2022-06-17 11:17:35</StartTime>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[One or more objects in this page are missing a required &lt;ALT&gt; tag.]]></OperationData>
+      </TestObject>
+      <Checkpoint>
+        <Type>Accessibility Checkpoint</Type>
+        <CheckpointSubType>AltCheck</CheckpointSubType>
+        <resultxml>Resources\CheckPoints\d62f3083-48d0-4c34-a965-6ab131930d71\AltCheck.xml</resultxml>
+        <resultxsl>Resources\CheckPoints\d62f3083-48d0-4c34-a965-6ab131930d71\accessibilitycheckpoint.xsl</resultxsl>
+      </Checkpoint>
+      <HtmlBottomFilePath>.\\\Resources\\CheckPoints\\d62f3083-48d0-4c34-a965-6ab131930d71\\AltCheck.js</HtmlBottomFilePath>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\33a775a9-3840-45e4-b4d3-f0c13bcaa70b.jpeg" highlight="8,93,1920,955" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>"Advantage Shopping_4"</Name>
+    <Description>Accessibility Checkpoint</Description>
+    <StartTime>2022-06-17 11:17:34</StartTime>
+    <Duration>1</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Accessibility Checkpoint]]></OperationData>
+      </TestObject>
+      <Checkpoint>
+        <Type>Accessibility Checkpoint</Type>
+      </Checkpoint>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Snapshot reference="Resources\Snapshots\491471b6-983d-41a8-bae9-332cbd9244bb.jpeg" highlight="8,93,1920,955" />
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"Suchen-Button"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not unique (11 objects found)&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=&lt;br&gt;html tag=svg&lt;br&gt;html id=menuSearch&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (11 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=svg&lt;br&gt;&lt;br&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Optional filter properties&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+html id=menuSearch&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;class=&lt;SPAN class=Failed&gt; (Skipped)&lt;/SPAN&gt;&lt;br&gt;innertext=&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 2 matches)&lt;/SPAN&gt;&lt;br&gt;visible=-1&lt;SPAN class=passed&gt; (Used&lt;/SPAN&gt;, 1 matches)&lt;/SPAN&gt;&lt;br&gt;acc_name=&lt;SPAN class=warning&gt; (Ignored)&lt;FONT color=#000000&gt;&lt;/FONT&gt;&lt;/SPAN&gt;&lt;br&gt;</Description>
+    <StartTime>2022-06-17 11:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[svg]]></Value>
+          </Property>
+          <BasicMatch>11</BasicMatch>
+        </SIDBasicProperties>
+        <SIDOptionalProperties>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[menuSearch]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[class]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Skipped]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>2</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[visible]]></Name>
+            <Value><![CDATA[True]]></Value>
+            <Info><![CDATA[Used]]></Info>
+            <Matches>1</Matches>
+          </Property>
+          <Property>
+            <Name><![CDATA[acc_name]]></Name>
+            <Value><![CDATA[]]></Value>
+            <Info><![CDATA[Ignored]]></Info>
+            <Matches>0</Matches>
+          </Property>
+        </SIDOptionalProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Suchen-Button]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not unique (11 objects found)</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=<br>html tag=svg<br>html id=menuSearch<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (11 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=svg<br><br><FONT face=Verdana size=2><u>Optional filter properties</FONT></u><br>
+html id=menuSearch<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>class=<SPAN class=Failed> (Skipped)</SPAN><br>innertext=<SPAN class=passed> (Used</SPAN>, 2 matches)</SPAN><br>visible=-1<SPAN class=passed> (Used</SPAN>, 1 matches)</SPAN><br>acc_name=<SPAN class=warning> (Ignored)<FONT color=#000000></FONT></SPAN><br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[svg]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[menuSearch]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a941e7a461c24d9e8ccec8a476ff34f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Suchen-Button.Click</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:35</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[Suchen-Button]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[svg]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html id]]></Name>
+            <Value><![CDATA[menuSearch]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Search AdvantageOnlineShopping.Set</Name>
+    <Description>"headphones"</Description>
+    <StartTime>2022-06-17 11:17:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebEdit</Type>
+            <Name><![CDATA[Search AdvantageOnlineShopping]]></Name>
+          </Object>
+        </Path>
+        <Operation>Set</Operation>
+        <OperationData><![CDATA["headphones"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[type]]></Name>
+            <Value><![CDATA[text]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[name]]></Name>
+            <Value><![CDATA[WebEdit]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[INPUT]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>7cf377228da9476b91301cdd5b671ec7</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>View All.Click</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:36</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[View All]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[View All]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>be43a0b604044784be6c80b65778da53</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>View All.Exist</Name>
+    <Description>"Object exists"</Description>
+    <StartTime>2022-06-17 11:17:41</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Link</Type>
+            <Name><![CDATA[View All]]></Name>
+          </Object>
+        </Path>
+        <Operation>Exist</Operation>
+        <OperationData><![CDATA["Object exists"]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[text]]></Name>
+            <Value><![CDATA[View All]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[A]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>be43a0b604044784be6c80b65778da53</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Context">
+<ReportNode type="Checkpoint">
+<Data>
+    <Name>"searchResultLabel"</Name>
+    <Description> </Description>
+    <StartTime>2022-06-17 11:17:41</StartTime>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[searchResultLabel]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[ ]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Search result: "headphones"]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H3]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <Checkpoint>
+        <Type>Standard Checkpoint</Type>
+        <Properties>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[html tag]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[H3]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[H3]]></StdChkPointPropertyExpectedValue>
+          </Property>
+          <Property>
+            <StdChkPointPropertyName><![CDATA[innertext]]></StdChkPointPropertyName>
+            <StdChkPointPropertyActualValue><![CDATA[Search result: "headphones" ]]></StdChkPointPropertyActualValue>
+            <StdChkPointPropertyExpectedValue><![CDATA[Search result: "headphones" ]]></StdChkPointPropertyExpectedValue>
+          </Property>
+        </Properties>
+        <ShortDescription>Checkpoint passed.</ShortDescription>
+      </Checkpoint>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<Data>
+    <Name>searchResultLabel</Name>
+    <Description>WebElement</Description>
+    <StartTime>2022-06-17 11:17:41</StartTime>
+    <Duration>12</Duration>
+    <Result>Passed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[searchResultLabel]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[WebElement]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[Search result: "headphones"]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[H3]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"About AOS Versions Management"- Description mismatch</Name>
+    <Description>The object was not found using the test object description. Check the object's properties.</Description>
+    <StartTime>2022-06-17 11:17:53</StartTime>
+    <Result>Warning</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <BasicMatch>1</BasicMatch>
+        </SIDBasicProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[The object was not found using the test object description. Check the object's properties.]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 0 ITEMS (0) Your shopping cart is empty TOTAL (0 Item) $0.00 CHECKOUT ($0.00) My account My orders Sign out CATEGORIES headphones TOP RESULTS FOR: "headphones" View All BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES $179.99 BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II $279.95 HP H2310 IN-EAR HEADSET $13.99 LOGITECH USB HEADSET H390 $39.99 CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>"About AOS Versions Management"- Smart Identification</Name>
+    <Description>&lt;P&gt;&lt;span class="text"&gt;The smart identification mechanism was invoked.&lt;/span&gt;&lt;/P&gt;&lt;P&gt;&lt;SPAN class=text&gt;Reason: object not found.&lt;/SPAN&gt;&lt;/P&gt;           &lt;SPAN class=text&gt;&lt;b&gt;Original description:&lt;/b&gt;&lt;/SPAN&gt;&lt;br&gt;micclass=WebElement&lt;br&gt;innertext=About AOS Versions Management Console 0 ITEMS (0) Your shopping cart is empty TOTAL (0 Item) $0.00 CHECKOUT ($0.00) My account My orders Sign out CATEGORIES headphones TOP RESULTS FOR: "headphones" View All BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES $179.99 BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II $279.95 HP H2310 IN-EAR HEADSET $13.99 LOGITECH USB HEADSET H390 $39.99 CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO&lt;br&gt;html tag=HEADER&lt;br&gt;&lt;P&gt;&lt;FONT face=Verdana size=2&gt;&lt;SPAN class=text&gt;&lt;B&gt;Smart Identification Alternative Description: &lt;/B&gt;&lt;/SPAN&gt;&lt;/FONT&gt;&lt;/P&gt;&lt;FONT face=Verdana size=2&gt;&lt;u&gt;Base filter properties (1 objects found)&amp;nbsp;&lt;/FONT&gt;&lt;/u&gt;&lt;br&gt;
+micclass=WebElement&lt;br&gt;html tag=HEADER&lt;br&gt;</Description>
+    <StartTime>2022-06-17 11:17:53</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <SmartIdentificationInfo>
+        <SIDBasicProperties>
+          <Property>
+            <Name><![CDATA[micclass]]></Name>
+            <Value><![CDATA[WebElement]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+          <BasicMatch>1</BasicMatch>
+        </SIDBasicProperties>
+      </SmartIdentificationInfo>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<P><span class="text">The smart identification mechanism was invoked.</span></P><P><SPAN class=text>Reason: object not found.</SPAN></P>           <SPAN class=text><b>Original description:</b></SPAN><br>micclass=WebElement<br>innertext=About AOS Versions Management Console 0 ITEMS (0) Your shopping cart is empty TOTAL (0 Item) $0.00 CHECKOUT ($0.00) My account My orders Sign out CATEGORIES headphones TOP RESULTS FOR: "headphones" View All BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES $179.99 BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II $279.95 HP H2310 IN-EAR HEADSET $13.99 LOGITECH USB HEADSET H390 $39.99 CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO<br>html tag=HEADER<br><P><FONT face=Verdana size=2><SPAN class=text><B>Smart Identification Alternative Description: </B></SPAN></FONT></P><FONT face=Verdana size=2><u>Base filter properties (1 objects found)&nbsp;</FONT></u><br>
+micclass=WebElement<br>html tag=HEADER<br>]]></OperationData>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 0 ITEMS (0) Your shopping cart is empty TOTAL (0 Item) $0.00 CHECKOUT ($0.00) My account My orders Sign out CATEGORIES headphones TOP RESULTS FOR: "headphones" View All BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES $179.99 BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II $279.95 HP H2310 IN-EAR HEADSET $13.99 LOGITECH USB HEADSET H390 $39.99 CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>a941e7a461c24d9e8ccec8a476ff34f5</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>About AOS Versions Management.Click</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:54</StartTime>
+    <Result>Done</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>WebElement</Type>
+            <Name><![CDATA[About AOS Versions Management]]></Name>
+          </Object>
+        </Path>
+        <Operation>Click</Operation>
+        <Properties>
+          <Property>
+            <Name><![CDATA[innertext]]></Name>
+            <Value><![CDATA[About AOS Versions Management Console 0 ITEMS (0) Your shopping cart is empty TOTAL (0 Item) $0.00 CHECKOUT ($0.00) My account My orders Sign out CATEGORIES headphones TOP RESULTS FOR: "headphones" View All BEATS STUDIO 2 OVER-EAR MATTE BLACK HEADPHONES $179.99 BOSE SOUNDLINK AROUND-EAR WIRELESS HEADPHONES II $279.95 HP H2310 IN-EAR HEADSET $13.99 LOGITECH USB HEADSET H390 $39.99 CONTACT US POPULAR ITEMS SPECIAL OFFER OUR PRODUCTS dvantage DEMO]]></Value>
+          </Property>
+          <Property>
+            <Name><![CDATA[html tag]]></Name>
+            <Value><![CDATA[HEADER]]></Value>
+          </Property>
+        </Properties>
+      </TestObject>
+      <IconKey>6bd849db350741aba01076b60bd286d1</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <DeviceInfo />
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-06-17 11:17:54</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>17869f8f4e1545bd810b67de470b1c71</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Advantage Shopping</Name>
+    <Description>Page</Description>
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Duration>50</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+          <Object>
+            <Type>Page</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[Page]]></OperationData>
+      </TestObject>
+      <IconKey>af7185cff87a4de1a9a131fa7bb5f85a</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Advantage Shopping</Name>
+    <Description>&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;span style="text-align : left; font-size : 12px; "&gt;Local Browser&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;</Description>
+    <StartTime>2022-06-17 11:17:04</StartTime>
+    <Duration>50</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <TestObject>
+        <Repository>Local</Repository>
+        <Path>
+          <Object>
+            <Type>Browser</Type>
+            <Name><![CDATA[Advantage Shopping]]></Name>
+          </Object>
+        </Path>
+        <OperationData><![CDATA[<table><tr><td><span style="text-align : left; font-size : 12px; ">Local Browser</span></td></tr></table>]]></OperationData>
+      </TestObject>
+      <IconKey>7bf6c3c1e7d744a8984450fee5971f73</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action1</Name>
+    <Description />
+    <StartTime>2022-06-17 11:17:03</StartTime>
+    <Duration>51</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="Param1" value="42" type="System.String" />
+      <Parameter name="Param2" value="Some Value" type="System.String" />
+    </InputParameters>
+    <OutputParameters>
+      <Parameter name="Param3" value="" type="" />
+    </OutputParameters>
+    <Extension>
+      <IconKey>40084ae28c604b238ed1b639afc35f29</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Action0</Name>
+    <Description />
+    <StartTime>2022-06-17 11:16:58</StartTime>
+    <Duration>56</Duration>
+    <Result>Failed</Result>
+    <Extension>
+      <IconKey>85fc17068724457baf8bc1b805822fc2</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Index>1</Index>
+    <TestedApplications>
+      <TestedApplication>
+        <RuntimeEngineInfo />
+        <Name>Mozilla Firefox (64-bit)</Name>
+        <Path>C:\Program Files\Mozilla Firefox\firefox.exe</Path>
+        <Version>101.0</Version>
+        <Technology>web</Technology>
+        <Reserved />
+        <AdditionalInfos>
+          <Info>http://advantageonlineshopping.com</Info>
+        </AdditionalInfos>
+      </TestedApplication>
+    </TestedApplications>
+  </Data>
+</ReportNode>
+<ReportNode type="Step">
+<Data>
+    <Name>Stop Run</Name>
+    <Description>Run stopped by user.</Description>
+    <StartTime>2022-06-17 11:17:54</StartTime>
+    <Result>Information</Result>
+    <Extension>
+      <IconKey>101b6fa29259402a974d703c7b1a6657</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+  </Data>
+</ReportNode>
+<Data>
+    <Name>Tag 3 - Function Libraries</Name>
+    <ToolName>Micro Focus UFT One</ToolName>
+    <ToolVersion>2021</ToolVersion>
+    <ToolVersionStringLiteral>2021</ToolVersionStringLiteral>
+    <Description />
+    <StartTime>2022-06-17 11:16:51</StartTime>
+    <Duration>63</Duration>
+    <Result>Failed</Result>
+    <InputParameters>
+      <Parameter name="MyTestParameter" value="42" type="System.String" />
+      <Parameter name="MyTestParam2" value="" type="System.String" />
+    </InputParameters>
+    <OutputParameters>
+      <Parameter name="TestOutputParameter" value="" type="" />
+    </OutputParameters>
+    <Extension>
+      <ParallelRunnerEnvInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+        <ID />
+        <Manufacturer />
+        <Model />
+        <OsType />
+        <OsVersion />
+        <DesktopBrowser>Mozilla Firefox (64-bit)</DesktopBrowser>
+        <ErrorMessage />
+      </ParallelRunnerEnvInfo>
+      <IconKey>798f1e1d08324fd69336949e92ee14a8</IconKey>
+      <IsPlainTextNodeName>True</IsPlainTextNodeName>
+    </Extension>
+    <Environment>
+      <Timezone>+02:00:00</Timezone>
+      <Locale>English (Germany)</Locale>
+      <User>bkuehnel</User>
+      <CpuInfo>Intel(R) Core(TM) i5-7440HQ CPU @ 2.80GHz</CpuInfo>
+      <NumberOfCores>3</NumberOfCores>
+      <TotalMemory>8179</TotalMemory>
+      <HostName>P0098-WIN10-BK-</HostName>
+      <OSInfo>Windows 10 21H2 (x64)</OSInfo>
+    </Environment>
+    <TestedApplications />
+    <Links>
+      <Link type="DataTable" reference="Default.xlsx" displayname="Default Data Table" />
+    </Links>
+  </Data>
+</ReportNode>
+<GeneralInfo>
+    <ResultName>Res1</ResultName>
+    <RunStartTime>2022-06-17 11:16:51</RunStartTime>
+    <Timezone>+02:00:00</Timezone>
+    <OrchestrationToolName>Micro Focus UFT One</OrchestrationToolName>
+    <OrchestrationToolVersion>2021</OrchestrationToolVersion>
+    <OrchestrationToolVersionStringLiteral>2021</OrchestrationToolVersionStringLiteral>
+  </GeneralInfo>
+</Results>
