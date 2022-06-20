@@ -1,0 +1,6 @@
+﻿<Properties>
+  <WatchEntry0 value="Browser(&quot;Advantage Shopping&quot;).Page(&quot;Advantage Shopping&quot;).Link(&quot;View All&quot;).Exist(5)" />
+  <WatchEntry1 value="myVariable" />
+  <WatchEntry2 value="Browser(&quot;Advantage Shopping&quot;).Page(&quot;Advantage Shopping&quot;).Image(&quot;file name:=fetchImage?image_id=2400&quot;).Exist" />
+  <WatchEntry3 value="myFunction(myVariable)" />
+</Properties>
