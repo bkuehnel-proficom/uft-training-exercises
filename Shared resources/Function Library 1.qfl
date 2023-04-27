@@ -9,7 +9,7 @@ End Sub
 
 Public Sub DebugMessage(strMessage)
 	If bDebag = True Then
-		Reporter.ReportEvent micWarning, "Custom message", strMessage		
+		Reporter.ReportEvent micWarning, "Custom debug message", strMessage		
 	End If
 End Sub
 
